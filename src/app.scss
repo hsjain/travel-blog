@@ -1,0 +1,22 @@
+.container{
+    padding: 2% 25%;
+    background-color: #e6e6e6;
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        padding: 2% 15%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        padding: 2% 10%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .container{
+        padding: 2% 5%;
+    }
+}

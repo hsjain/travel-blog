@@ -1,0 +1,73 @@
+.destination{
+    display: flex;
+    padding-bottom: 2%;
+
+    .coverImg{
+        width: 275px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #333;
+        margin-right: 2%;
+    }
+
+    .text{
+        position: relative;
+        .location{
+            display: flex;
+            position: relative;
+            top: 10%;
+
+            .country{
+                font-weight: 10;
+                font-size: larger;
+                color: rgba(0, 0, 0, 0.7);
+            }
+
+            .maps{
+                padding-left: 5%;
+                text-decoration: none;
+                text-decoration: underline;
+                color: rgba(0, 0, 0, 0.4);
+                white-space: nowrap;
+            }
+        }
+
+        .title{
+            position: relative;
+            top: 13%;
+            font-size: 200%;
+            color: rgba(0, 0, 0, 0.8)
+        }
+
+        .dates{
+            position: relative;
+            top: 18%;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        .desc{
+            position: relative;
+            top: 22%;
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 650px){
+    .destination{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .coverImg{
+            margin: 3% 0%;
+        }
+
+        .text{
+            width: 275px;
+        }
+    }
+}
